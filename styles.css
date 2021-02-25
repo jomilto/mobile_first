@@ -332,6 +332,18 @@ main {
     background-image: url('./assets/icons/clock.svg');
 }
 
+.product-detail--card-icon.eye {
+    background-image: url('./assets/icons/eye.svg');
+}
+
+.product-detail--card-icon.dollar {
+    background-image: url('./assets/icons/dollar-sign.svg');
+}
+
+.product-detail--card-icon.check {
+    background-image: url('./assets/icons/check-circle.svg');
+}
+
 .product--card-title {
     margin-bottom: 15px;
     font-size: 1.8rem;
