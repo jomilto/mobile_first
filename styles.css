@@ -318,15 +318,18 @@ main {
     box-shadow: 0 4px 8px rgba(0,0,0,0.16);
 }
 
-.product-detail--card .clock {
+.product-detail--card-icon {
     display: inline-block;
     width: 24px;
     height: 24px;
     margin-bottom: 10px;
-    background-image: url('./assets/icons/clock.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.product-detail--card-icon.clock {
+    background-image: url('./assets/icons/clock.svg');
 }
 
 .product--card-title {
